@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(to right, rgb(124, 178, 219), rgb(179, 194, 200));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.text-clr {
+  color: rgb(171, 82, 201);
+}
+.info {
+  background-color: rgba(0, 0, 0, 0.484);
+  border: 2 solid rgb(248, 248, 248) !important;
+  color: rgb(255, 255, 255);
+}
+
+.home {
+  width: 50% !important;
+  background-color: rgba(0, 33, 68, 0.275);
+}
+
+.inp {
+  background-color: transparent !important;
+  color: white !important;
+}
+.inp::placeholder {
+  color: white !important;
+}
+/* chart */
+.chart {
+  width: 50% !important;
+}
+.about {
+  color: rgb(49, 49, 106);
+}
+.back-btn {
+  background-color: rgb(9, 9, 62) !important;
+}
+.chart-bg {
+  background-color: rgba(76, 86, 115, 0.26);
+}
+
+@media (max-width: 600px) {
+  .home {
+    width: 100% !important;
+  }
+  .chart {
+    width: 100% !important ;
+  }
+}

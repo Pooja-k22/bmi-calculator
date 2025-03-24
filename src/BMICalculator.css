@@ -1,0 +1,20 @@
+.main {
+  width: 50%;
+}
+.main-img {
+  background-image: url(https://media.istockphoto.com/id/1158198821/vector/woman-exercising-in-the-park-vector-illustration-in-flat-style-concept-illustration-for.jpg?s=612x612&w=0&k=20&c=IsYxAeXri4vJNmR7qAWR6KoqdsytxfmV3NTTuyqydM4=);
+  min-height: 460px;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-content h6 {
+  color: rgb(104, 140, 171);
+  margin-top: 10% !important;
+}
+
+@media (max-width: 600px) {
+  .main {
+    width: 100%;
+  }
+}
