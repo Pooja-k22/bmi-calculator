@@ -115,7 +115,7 @@ function Home() {
             </Link>
 
             <Button
-              variant="outline-primary"
+              variant="primary"
               onClick={valueReset}
               className="px-5"
             >
