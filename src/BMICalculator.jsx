@@ -16,7 +16,7 @@ function BMICalculator() {
 
             <div className="col-12 col-md-6  bg-dark text-light p-5  main-content">
               <h6 className="mb-3 mt-5 ">KEEP YOUR BODY AT GLANCE</h6>
-              <h2 className="mb-5">Check your BMI Get Personalized Advice</h2>
+              <h2 className="mb-3 mb-md-5">Check your BMI Get Personalized Advice</h2>
               <Link to="/home">
                 <Button variant="primary" className="w-100 my-3 ">
                   Go to BMI Calculator

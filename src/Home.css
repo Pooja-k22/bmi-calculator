@@ -1,5 +1,7 @@
 body {
-  background: linear-gradient(to right, rgb(124, 178, 219), rgb(179, 194, 200));
+  /* background: linear-gradient(to right, rgb(124, 178, 219), rgb(179, 194, 200)); */
+  background: linear-gradient(to bottom, #5EC3B5, #7165C4, #6B3FA0);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -38,6 +40,9 @@ body {
 }
 .chart-bg {
   background-color: rgba(76, 86, 115, 0.26);
+}
+.bg{
+  background-color: #cfc7ffb1;
 }
 
 @media (max-width: 600px) {

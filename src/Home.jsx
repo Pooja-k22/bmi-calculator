@@ -128,7 +128,7 @@ function Home() {
           <div className=" p-3 info">
             <div>
               <h3 className="mt-3">
-                <FontAwesomeIcon icon={faPerson} /> Your Body Mass Index:{" "}
+                <FontAwesomeIcon icon={faPerson} /> Your BMI:{" "}
                 <span className="text-success">{bmi}</span>
               </h3>
               <div className="d-flex justify-content-center align-items-center">
@@ -139,12 +139,13 @@ function Home() {
 
             <div className="d-flex justify-content-between align-items-center">
               <Row className="mt-4">
-                <Col className="text-start">
+                <Col className="text-start ">
                   <h6 className="mb-3">
-                    <FontAwesomeIcon icon={faBowlFood} /> Diet Suggestions :
+                    <FontAwesomeIcon icon={faBowlFood} /> Dietary Intake Suggestions :
                   </h6>
-                  <p>
-                    <FontAwesomeIcon icon={faArrowRight} /> {dietPlan}
+                  <p className="bg p-3">
+                    {/* <FontAwesomeIcon icon={faArrowRight} /> */}
+                     {dietPlan}
                   </p>
                 </Col>
                 <Col className="text-start">
@@ -152,8 +153,9 @@ function Home() {
                     <FontAwesomeIcon icon={faPersonWalking} /> Recommended
                     Exercises :
                   </h6>
-                  <p>
-                    <FontAwesomeIcon icon={faArrowRight} /> {exercise}
+                  <p className="bg p-3">
+                    {/* <FontAwesomeIcon icon={faArrowRight} />  */}
+                    {exercise}
                   </p>
                 </Col>
               </Row>
@@ -162,6 +164,63 @@ function Home() {
         )}
       </Container>
     </div>
+
+  //   <div className="bmi-container">
+  //   <Container className="bmi-card">
+  //     <Row>
+  //       {/* Left Side: Input Form */}
+  //       <Col md={6} className="input-section">
+  //         <h2 className="title">BMI Calculator</h2>
+  //         <Form onSubmit={calculateBMI}>
+  //           <Form.Group>
+  //             <Form.Control
+  //               type="text"
+  //               className="inp"
+  //               placeholder="Enter Weight (Kg)"
+  //               value={weight}
+  //               onChange={(e) => setWeight(e.target.value)}
+  //             />
+  //           </Form.Group>
+  //           <Form.Group>
+  //             <Form.Control
+  //               type="text"
+  //               className="inp"
+  //               placeholder="Enter Height (cm)"
+  //               value={height}
+  //               onChange={(e) => setHeight(e.target.value)}
+  //             />
+  //           </Form.Group>
+  //           <Button type="submit" className="btn-calculate">
+  //             Calculate BMI
+  //           </Button>
+  //           <Button variant="outline-light" className="btn-reset" onClick={resetValues}>
+  //             Reset
+  //           </Button>
+  //         </Form>
+  //       </Col>
+
+  //       {/* Right Side: BMI Results */}
+  //       <Col md={6} className="result-section">
+  //         {bmi && (
+  //           <div className="result-box">
+  //             <h3>
+  //               <FontAwesomeIcon icon={faPerson} /> Your BMI: <span className="bmi-value">{bmi}</span>
+  //             </h3>
+  //             <h4 className="category">{category}</h4>
+  //             <div className="suggestions">
+  //               <p>
+  //                 <FontAwesomeIcon icon={faBowlFood} /> Diet: {dietPlan}
+  //               </p>
+  //               <p>
+  //                 <FontAwesomeIcon icon={faPersonWalking} /> Exercises: {exercise}
+  //               </p>
+  //             </div>
+  //           </div>
+  //         )}
+  //       </Col>
+  //     </Row>
+  //   </Container>
+  // </div>
   );
 }
 
