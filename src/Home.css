@@ -11,7 +11,7 @@ body {
   color: rgb(171, 82, 201);
 }
 .info {
-  background-color: rgba(148, 190, 204, 0.785);
+  background-color: rgba(148, 187, 221, 0.785);
   border: 2 solid rgb(248, 248, 248) !important;
   color: rgb(0, 0, 0);
 }
@@ -42,7 +42,8 @@ body {
   background-color: rgba(76, 86, 115, 0.26);
 }
 .bg{
-  background-color: #cfc7ffb1;
+  background-color: #c5d6efb1;
+  
 }
 
 @media (max-width: 600px) {
